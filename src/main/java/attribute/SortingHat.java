@@ -1,4 +1,4 @@
-package org.example;
+package attribute;
 
 public class SortingHat {
 }
