@@ -6,7 +6,6 @@ public enum Pet{
     CAT,
     TOAD;
 
-
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
