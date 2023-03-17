@@ -1,4 +1,4 @@
-package org.example;
+package character;
 import lombok.*;
 import attribute.House;
 import attribute.Pet;

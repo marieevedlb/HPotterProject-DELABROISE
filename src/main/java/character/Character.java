@@ -1,3 +1,3 @@
-package org.example;
+package character;
 public class Character {
 }

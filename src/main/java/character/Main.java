@@ -1,4 +1,4 @@
-package org.example;
+package character;
 import attribute.Core;
 import attribute.Wand;
 import lombok.*;
