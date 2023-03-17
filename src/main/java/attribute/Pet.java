@@ -4,8 +4,7 @@ public enum Pet{
     OWL,
     RAT,
     CAT,
-    TOAD,
-    DOG;
+    TOAD;
 
 
     public static void main(String[] args) {
