@@ -5,7 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="de08e27e-7878-4685-9e75-c65de92d1a70" name="Changes" comment="classes pet house core wand fini, reste fin wizard spell et potions à faire">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/attribute/Core.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/attribute/Core.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/attribute/House.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/attribute/House.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/attribute/Pet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/attribute/Pet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/attribute/SortingHat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/attribute/SortingHat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/attribute/Wand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/attribute/Wand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/character/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/character/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/character/Wizard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/character/Wizard.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,11 +53,12 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/33695&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
@@ -71,7 +80,8 @@
       <workItem from="1678454523338" duration="92000" />
       <workItem from="1678454637588" duration="4358000" />
       <workItem from="1678461165361" duration="1350000" />
-      <workItem from="1678462548074" duration="8717000" />
+      <workItem from="1678462548074" duration="19178000" />
+      <workItem from="1680003260786" duration="12945000" />
     </task>
     <task id="LOCAL-00001" summary="rt">
       <created>1678447318142</created>
@@ -108,7 +118,21 @@
       <option name="project" value="LOCAL" />
       <updated>1679063452053</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="classes pet house core wand fini, reste fin wizard spell et potions à faire">
+      <created>1679063593197</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1679063593197</updated>
+    </task>
+    <task id="LOCAL-00007" summary="classes pet house core wand fini, reste fin wizard spell et potions à faire">
+      <created>1679063787905</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1679063787905</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

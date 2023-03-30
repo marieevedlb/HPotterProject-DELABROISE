@@ -1,17 +1,14 @@
 package attribute;
 import lombok.*;
 
-public class Core {
-    public static final String PHOENIX_FEATHER = "Phoenix Feather";
-    public static final String DRAGON_HEARTSTRING = "Dragon Heartstring";
+@Getter
+public enum Core {
+    PHOENIX_FEATHER ("Phoenix Feather"),
+    DRAGON_HEARTSTRING ("Dragon Heartstring"),
+    UNICORN_HAIR ("Unicorn Hair");
 
-    private String core;
-
-    public Core(String core) {
-        this.core = core;
-    }
-
-    public String getCore() {
-        return core;
+    private String name;
+    Core (String name){
+        this.name = name;
     }
 }

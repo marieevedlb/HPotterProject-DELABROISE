@@ -1,16 +1,16 @@
 package attribute;
 import java.util.Random;
+import lombok.*;
+@Getter @Setter
 
-public enum House {
-    GRYFFINDOR,
-    HUFFLEPUFF,
-    RAVENCLAW,
-    SLYTHERIN;
+public class House {
+    private String name;
 
-    public static House assignHouseRandomly(){
-        Random random = new Random();
-        int index = random.nextInt(House.values().length);
-        return House.values()[index];
+    public House(String name){
+        this.name = name;
     }
+
+
+
 }
 

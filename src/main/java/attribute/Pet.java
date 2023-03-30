@@ -1,37 +1,28 @@
 package attribute;
 import java.util.Scanner;
+import lombok.*;
+
+@Getter
 public enum Pet{
-    OWL,
-    RAT,
-    CAT,
-    TOAD;
+    OWL ("Owl"),
+    RAT ("Rat"),
+    CAT ("Cat"),
+    TOAD ("Toad");
 
+    private String name;
+    Pet(String name){
+        this.name = name;
+    }
 
-    public static void main(String[] args) {
+    public static Pet choosePet() {
         Scanner scanner = new Scanner(System.in);
-
-        System.out.println("Choisissez un animal de compagnie :");
+        System.out.println("Choose your pet:");
+        int i = 1;
         for (Pet pet : Pet.values()) {
-            System.out.println(pet.name());
+            System.out.println(i + ". " + pet.getName());
+            i++;
         }
-
-        String userInput = scanner.nextLine().toUpperCase();
-        Pet chosenPet = null;
-
-        while (chosenPet == null) {
-            for (Pet pet : Pet.values()) {
-                if (pet.name().equalsIgnoreCase(userInput)) {
-                    chosenPet = pet;
-                    break;
-                }
-            }
-
-            if (chosenPet == null) {
-                System.out.println("Animal de compagnie invalide. Veuillez réessayer.");
-                userInput = scanner.nextLine().toUpperCase();
-            }
-        }
-
-        System.out.println("Vous avez choisi " + chosenPet.name() + " comme animal de compagnie.");
+        int choix = scanner.nextInt();
+        return Pet.values()[choix - 1];
     }
 }
