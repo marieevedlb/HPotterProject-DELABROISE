@@ -92,7 +92,6 @@ public class Main {
                 System.exit(0);
         }
 
-
         // Le Sorting Hat assigne une maison au hasard
 
         SortingHat sortingHat = new SortingHat();
@@ -102,7 +101,7 @@ public class Main {
         System.out.println("Congrats " + wizard.getName() + ", you are ready to begin your education at Hogwarts in " + wizard.getHouse().getName() + " house.\n" +
                 "Your wand's core is " + wizard.getWand().getCore().getName() +
                 " and its size is " + wizard.getWand().getSize() + " cm.\n" +
-                "You have a" + wizard.getPet().getName() + " as a pet.");
+                "You have a " + wizard.getPet().getName() + " as a pet.");
 
        /* // Lancement du jeu:
         Level level = Level.createLevel(0);

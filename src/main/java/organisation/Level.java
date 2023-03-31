@@ -10,13 +10,7 @@ import lombok.Getter;
 import lombok.Setter;
 
 @Getter @Setter
-public class Level {
-    /*private int levelNumber;
-    private String name;
-    private String location;
-    private List<AbstractEnemy> enemies;
-    private String description;
-
+public class Level {/*
     public Level(int levelNumber, String name, String location, List<AbstractEnemy> enemies, String description) {
         this.levelNumber = levelNumber;
         this.name = name;
@@ -28,11 +22,11 @@ public class Level {
     public boolean isComplete() {
         return enemies.stream().allMatch(AbstractEnemy::isDefeated);
     }
-}
-*/
+
+
 
     //simuler bataille sorciers-enemis à partir de la liste d'enemis:
     //aventages liés à une maison?
     //lance bataille
     //fin bataille --> ajout d'une anée
-}
+*/}

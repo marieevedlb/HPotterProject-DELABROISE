@@ -5,22 +5,34 @@ import attribute.*;
 import lombok.*;
 @Getter @Setter
 
-public class AbstractEnemy {
-    /*private String name;
-    private int numEnemy;
-    private int maxhealth;
-    private int currenthealth;
-    private int damage;
-    private int precision;
-
-
-    public AbstractEnemy(String name, int numEnemy, int maxhealth, int currenthealth, int damage, int precision) {
+public class AbstractEnemy {/*
+    public AbstractEnemy(String name, int numEnemy, int maxHealth, int currentHealth, int damage, double accuracy) {
         this.name = name;
         this.numEnemy = numEnemy;
-        this.maxhealth = maxhealth;
-        this.currenthealth = currenthealth;
+        this.maxHealth = maxHealth;
+        this.currentHealth = currentHealth;
         this.damage = damage;
-        this.precision = precision;
+        this.accuracy = accuracy;
+    }
+
+    public boolean isDefeated() {
+        return currentHealth <= 0;
+    }
+
+    public void takeDamage(int damage) {
+        currentHealth -= damage;
+        if (currentHealth < 0) {
+            currentHealth = 0;
+        }
+    }
+
+    public int attack() {
+        double roll = Math.random();
+        if (roll < accuracy) {
+            return damage;
+        } else {
+            return 0;
+        }
     }
 */
 }
