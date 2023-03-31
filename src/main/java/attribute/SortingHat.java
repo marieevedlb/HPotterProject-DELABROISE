@@ -1,6 +1,5 @@
 package attribute;
-import attribute.House;
-import character.Wizard;
+import organisation.Wizard;
 import java.util.Random;
 import java.util.List;
 import java.util.ArrayList;
@@ -18,7 +17,8 @@ public class SortingHat {
             house.add(new House("Slytherin"));
         }
 
-           public void assignHouse(Wizard wizard) {
+
+        public void assignHouse(Wizard wizard) {
             Random random = new Random();
             int index = random.nextInt(house.size());
             House randomHouse = house.get(index);

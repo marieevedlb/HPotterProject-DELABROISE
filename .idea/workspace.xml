@@ -5,15 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="de08e27e-7878-4685-9e75-c65de92d1a70" name="Changes" comment="classes pet house core wand fini, reste fin wizard spell et potions à faire">
+      <change afterPath="$PROJECT_DIR$/src/main/java/organisation/Level.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/organisation/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/attribute/Core.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/attribute/Core.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/attribute/House.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/attribute/House.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/attribute/Pet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/attribute/Pet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/attribute/SortingHat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/attribute/SortingHat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/attribute/Wand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/attribute/Wand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/character/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/character/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/character/Wizard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/character/Wizard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/character/AbstractEnemy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/character/AbstractEnemy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/character/Enemy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/character/Enemy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/character/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/character/Wizard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/organisation/Wizard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/spell/AbstractSpell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/spell/AbstractSpell.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/spell/Spell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/spell/Spell.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +84,8 @@
       <workItem from="1678454637588" duration="4358000" />
       <workItem from="1678461165361" duration="1350000" />
       <workItem from="1678462548074" duration="19178000" />
-      <workItem from="1680003260786" duration="12945000" />
+      <workItem from="1680003260786" duration="13994000" />
+      <workItem from="1680169823740" duration="21580000" />
     </task>
     <task id="LOCAL-00001" summary="rt">
       <created>1678447318142</created>
@@ -132,7 +136,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679063787905</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="classes pet house core wand fini, reste fin wizard spell et potions à faire">
+      <created>1680168244587</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1680168244587</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

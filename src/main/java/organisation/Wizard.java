@@ -1,4 +1,4 @@
-package character;
+package organisation;
 import lombok.*;
 import attribute.House;
 import attribute.Pet;
@@ -16,6 +16,9 @@ public class Wizard {
         this.pet = pet;
         this.wand = wand;
         this.house = house;
+    }
+    public String getName() {
+        return name;
     }
 
 
