@@ -8,9 +8,9 @@ import java.util.ArrayList;
 
 @Getter @Setter
 
-public class Enemy extends AbstractEnemy {
+public class Enemy extends AbstractEnemy {/*
     public Enemy(String name, int numEnemy, int maxHealth, int currentHealth, int damage, double accuracy) {
     super(name, numEnemy, maxHealth, currentHealth, damage, accuracy);
 }
-
+*/
 }
