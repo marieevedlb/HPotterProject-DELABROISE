@@ -1,32 +1,55 @@
 package organisation;
-import character.*;
-import attribute.*;
+import character.Character;
+import character.AbstractEnemy;
+import character.Enemy;
+import character.Boss;
 import spell.*;
+
 import java.util.Arrays;
 import java.util.Random;
 import java.util.List;
 import java.util.ArrayList;
 import lombok.Getter;
 import lombok.Setter;
+@Getter
+@Setter
 
-@Getter @Setter
-public class Level {/*
-    public Level(int levelNumber, String name, String location, List<AbstractEnemy> enemies, String description) {
-        this.levelNumber = levelNumber;
+public class Level {
+    private int id;
+    private String name;
+    private String place;
+    private List<AbstractEnemy> enemies;
+    private String description;
+
+    public Level(int id, String name, String place, List<AbstractEnemy> enemies, String description) {
+        this.id = id;
         this.name = name;
-        this.location = location;
+        this.place = place;
         this.enemies = enemies;
         this.description = description;
     }
 
-    public boolean isComplete() {
-        return enemies.stream().allMatch(AbstractEnemy::isDefeated);
+    public int getNumberOfEnemies() {
+        return enemies.size();
     }
 
+    public void run(Wizard wizard) {
+        System.out.println("This is level number: " + id);
+        System.out.println("It is " + name + ", " + description);
+        System.out.println("and it takes place in: " + place);
 
+        int numberOfEnemies = getNumberOfEnemies();
+        if (numberOfEnemies == 1) {
+            System.out.println("There is " + numberOfEnemies + " enemy");
+        } else {
+            System.out.println("There are " + numberOfEnemies + " enemies");
+        }
 
-    //simuler bataille sorciers-enemis à partir de la liste d'enemis:
-    //aventages liés à une maison?
-    //lance bataille
-    //fin bataille --> ajout d'une anée
-*/}
+        for (AbstractEnemy enemy : enemies) {
+            System.out.println(enemy.toString());
+            wizard.startBattle((Character) enemy);
+        }
+
+        wizard.setYear(wizard.getYear() + 1);
+    }
+}

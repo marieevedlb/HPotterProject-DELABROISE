@@ -1,7 +1,11 @@
 package organisation;
 import attribute.*;
-
+import character.*;
+import organisation.Level;
+import spell.*;
 import java.util.Scanner;
+import java.util.List;
+import java.util.ArrayList;
 
 public class Main {
     public static void main(String[] args){
@@ -92,33 +96,63 @@ public class Main {
                 System.exit(0);
         }
 
-        // Le Sorting Hat assigne une maison au hasard
+        // Créer un sorcier
+        Wizard wizard = new Wizard(name, pet, new Wand(size, core), null,
+                new ArrayList<>(), 100, 100, 0.2, 1);
 
+        // Le Sorting Hat assigne une maison au hasard
         SortingHat sortingHat = new SortingHat();
-        Wizard wizard = new Wizard(name, pet, new Wand(size, core), null);
         sortingHat.assignHouse(wizard);
+
+        //Liste de potions
+        PotionRepository potionRepository = new PotionRepository();
+        List<Potion> potions = potionRepository.getPotions();
+
+        // Ajouter le premier sort dès la création du sorcier
+        wizard.learnSpell(Spell.getSpells().get(0));
+
 
         System.out.println("Congrats " + wizard.getName() + ", you are ready to begin your education at Hogwarts in " + wizard.getHouse().getName() + " house.\n" +
                 "Your wand's core is " + wizard.getWand().getCore().getName() +
                 " and its size is " + wizard.getWand().getSize() + " cm.\n" +
-                "You have a " + wizard.getPet().getName() + " as a pet.");
+                "You have a " + wizard.getPet().getName() + " as a pet." + "\nTo start, you have " + wizard.getCurrenthealth() + " HP.\n");
 
-       /* // Lancement du jeu:
-        Level level = Level.createLevel(0);
-        level.runLevel(0, wizard);*/
+        List<Level> levels = new ArrayList<>();
+
+        Level1 level1 = new Level1(wizard);
+        level1.fight (wizard);
+
+        Level2 level2 = new Level2(wizard);
+        level2.fight(wizard);
+
+        Level3 level3 = new Level3(wizard);
+        level3.fight(wizard);
+
+        Level4 level4 = new Level4(wizard);
+        level4.fight(wizard);
+
+        Level5 level5 = new Level5(wizard);
+        level5.fight(wizard);
+
+        Level6 level6 = new Level6(wizard);
+        level6.fight(wizard);
+
+        Level7 level7 = new Level7(wizard);
+        level7.fight(wizard);
+
+        for (Level level : levels) {
+            System.out.println("Starting level: " + level.getClass().getSimpleName());
+            level.playLevel(wizard);
+        }
+
+        System.out.println("Congratulations! You achieve your education at Hogwarts. You are now a true wizard !");
+
 
     }
 }
 
 
 
-
-    /*
-    commencer jeu - phrase bonjour
-    choisir attributs sorcier
-    commencer niveau 1
-
-     */
 
 
 
