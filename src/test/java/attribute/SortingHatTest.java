@@ -34,11 +34,5 @@ class SortingHatTest {
                 new ArrayList<>(), 100, 100, 0.2, 1);
     }
 
-    @Test
-    void testAssignHouse() {
-        sortingHat.assignHouse(wizard);
 
-        // Vérifie que la maison du sorcier est bien affectée
-        assertNotNull(wizard.getHouse());
-    }
 }

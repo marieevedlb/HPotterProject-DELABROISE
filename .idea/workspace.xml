@@ -5,18 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="de08e27e-7878-4685-9e75-c65de92d1a70" name="Changes" comment="correction bugs">
-      <change afterPath="$PROJECT_DIR$/src/test/java/attribute/CoreTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/attribute/HouseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/attribute/PetTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/attribute/SortingHatTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/attribute/WandTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/attribute/Potion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/attribute/Potion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/attribute/UserInput.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/character/Boss.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/character/Boss.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/character/Enemy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/character/Enemy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/character/Character.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/character/Character.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/organisation/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/organisation/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/organisation/Wizard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/organisation/Wizard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/attribute/SortingHatTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/attribute/SortingHatTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,7 +110,7 @@
       <workItem from="1680169823740" duration="35959000" />
       <workItem from="1682019694075" duration="13005000" />
       <workItem from="1683882453090" duration="60000" />
-      <workItem from="1683882547113" duration="5835000" />
+      <workItem from="1683882547113" duration="17157000" />
     </task>
     <task id="LOCAL-00001" summary="rt">
       <created>1678447318142</created>
@@ -203,7 +196,21 @@
       <option name="project" value="LOCAL" />
       <updated>1682675973068</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="correction bugs">
+      <created>1683891187831</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1683891187831</updated>
+    </task>
+    <task id="LOCAL-00014" summary="correction bugs">
+      <created>1683901208857</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1683901208857</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -214,16 +221,5 @@
     <MESSAGE value="classes pet house core wand fini, reste fin wizard spell et potions à faire" />
     <MESSAGE value="correction bugs" />
     <option name="LAST_COMMIT_MESSAGE" value="correction bugs" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/organisation/Wizard.java</url>
-          <line>180</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
