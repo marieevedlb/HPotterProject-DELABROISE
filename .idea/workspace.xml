@@ -5,26 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="de08e27e-7878-4685-9e75-c65de92d1a70" name="Changes" comment="correction bugs">
-      <change afterPath="$PROJECT_DIR$/src/main/java/attribute/UserInput.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/organisation/Level1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/organisation/Level2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/organisation/Level3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/organisation/Level4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/organisation/Level5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/organisation/Level6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/organisation/Level7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/attribute/CoreTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/attribute/HouseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/attribute/PetTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/attribute/SortingHatTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/attribute/WandTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/attribute/Potion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/attribute/Potion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/character/AbstractEnemy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/character/AbstractEnemy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/attribute/UserInput.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/character/Boss.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/character/Boss.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/character/Character.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/character/Character.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/character/Enemy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/character/Enemy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/organisation/Level.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/organisation/Level.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/organisation/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/organisation/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/organisation/Wizard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/organisation/Wizard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/spell/AbstractSpell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/spell/AbstractSpell.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/spell/ForbiddenSpell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/spell/ForbiddenSpell.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/spell/Spell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/spell/Spell.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +27,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="package-info" />
+        <option value="JUnit5 Test Class" />
         <option value="Class" />
       </list>
     </option>
@@ -52,6 +45,9 @@
       </MavenImportingSettings>
     </option>
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectId" id="2MohrKmWAt8iKOAgYiJ8OpRANgP" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -64,6 +60,8 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/33695&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -76,6 +74,29 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="attribute" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="All in HPotterProject-DELABROISE" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="HPotterProject-DELABROISE" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.All in HPotterProject-DELABROISE" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -94,7 +115,9 @@
       <workItem from="1678462548074" duration="19178000" />
       <workItem from="1680003260786" duration="13994000" />
       <workItem from="1680169823740" duration="35959000" />
-      <workItem from="1682019694075" duration="10300000" />
+      <workItem from="1682019694075" duration="13005000" />
+      <workItem from="1683882453090" duration="60000" />
+      <workItem from="1683882547113" duration="5835000" />
     </task>
     <task id="LOCAL-00001" summary="rt">
       <created>1678447318142</created>
@@ -173,7 +196,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680269707184</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="correction bugs">
+      <created>1682675973068</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1682675973068</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -1,4 +1,5 @@
 package character;
+
 import lombok.Getter;
 import lombok.Setter;
 
@@ -19,8 +20,8 @@ public class Enemy extends AbstractEnemy {
         enemies.add(new Enemy("Death Eaters", 20, 20, 3, 0.8, 1, 10));
     }
 
-    public Enemy(String name, int maxhealth, int currenthealth, int damage, double accuracy, double resistance, int number_of_enemies) {
-        super(name, maxhealth, currenthealth, damage, accuracy, resistance, number_of_enemies);
+    public Enemy(String name, int maxHealth, int currentHealth, int damage, double accuracy, int resistance, int numberOfEnemies) {
+        super(name, maxHealth, currentHealth, resistance, damage, accuracy, numberOfEnemies);
     }
 
     @Override

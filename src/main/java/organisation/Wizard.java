@@ -229,19 +229,3 @@ public class Wizard {
 }
 */
 
-
-   /* public Wizard(String name, Pet pet, Wand wand, House house) {
-        this.name = name;
-        this.pet = pet;
-        this.wand = wand;
-        this.house = house;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-
-}
-
-*/
