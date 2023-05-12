@@ -45,10 +45,6 @@ public class Level {
             System.out.println("There are " + numberOfEnemies + " enemies");
         }
 
-        for (AbstractEnemy enemy : enemies) {
-            System.out.println(enemy.toString());
-            wizard.startBattle((Character) enemy);
-        }
 
         wizard.setYear(wizard.getYear() + 1);
     }

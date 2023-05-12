@@ -105,11 +105,11 @@ public class Main {
         sortingHat.assignHouse(wizard);
 
         //Liste de potions
-        PotionRepository potionRepository = new PotionRepository();
-        List<Potion> potions = potionRepository.getPotions();
+        Potion potion = new Potion("Precisium", 15);
+        List<Potion> potions = potion.getPotions();
 
         // Ajouter le premier sort dès la création du sorcier
-        wizard.learnSpell(Spell.getSpells().get(0));
+       /* wizard.learnSpell(Spell.getSpells().get(0));*/
 
 
         System.out.println("Congrats " + wizard.getName() + ", you are ready to begin your education at Hogwarts in " + wizard.getHouse().getName() + " house.\n" +
@@ -119,31 +119,7 @@ public class Main {
 
         List<Level> levels = new ArrayList<>();
 
-        Level1 level1 = new Level1(wizard);
-        level1.fight (wizard);
 
-        Level2 level2 = new Level2(wizard);
-        level2.fight(wizard);
-
-        Level3 level3 = new Level3(wizard);
-        level3.fight(wizard);
-
-        Level4 level4 = new Level4(wizard);
-        level4.fight(wizard);
-
-        Level5 level5 = new Level5(wizard);
-        level5.fight(wizard);
-
-        Level6 level6 = new Level6(wizard);
-        level6.fight(wizard);
-
-        Level7 level7 = new Level7(wizard);
-        level7.fight(wizard);
-
-        for (Level level : levels) {
-            System.out.println("Starting level: " + level.getClass().getSimpleName());
-            level.playLevel(wizard);
-        }
 
         System.out.println("Congratulations! You achieve your education at Hogwarts. You are now a true wizard !");
 

@@ -1,21 +1,29 @@
 package attribute;
-import organisation.*;
+
 import lombok.*;
+
+import java.util.ArrayList;
+import java.util.List;
 
 @Getter
 @Setter
-@AllArgsConstructor
 public class Potion {
-    private final String name;
-    private int healingPower;
+    private String name;
+    private int strength;
 
-    public void use(Wizard wizard) {
-        //
+    private static List<Potion> potions;
+
+    public Potion(String name, int strength) {
+        this.name = name;
+        this.strength = strength;
     }
 
-    @Override
-    public String toString() {
-        return name;
+    static {
+        potions = new ArrayList<>();
+        potions.add(new Potion("Precisium", 15));
     }
 
+    public static List<Potion> getPotions() {
+        return potions;
+    }
 }
