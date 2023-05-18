@@ -42,7 +42,7 @@ public class Wizard extends Character {
         knownSpells.add(spell);
     }
 
-    // Générer un index aléatoire pour choisir un sort de la liste
+    // Générère un index aléatoire pour choisir un sort de la liste
     public Spell chooseSpell() {
         List<Spell> availableSpells = Spell.getSpells();
         Random random = new Random();
@@ -61,7 +61,7 @@ public class Wizard extends Character {
                     damage += 5;
                 }
                 target.takeDamage(damage);
-                System.out.println("You did " + damage + " damage to the enemy! It has ");
+                System.out.println("You did " + damage + " damage to the enemy!" + "It has" + target.getCurrenthealth() + "health remaining");
             } else {
                 System.out.println("Your spell missed the enemy!");
             }
@@ -69,6 +69,7 @@ public class Wizard extends Character {
             System.out.println("You don't have any available spells to cast!");
         }
     }
+
     private boolean rollAccuracy(double accuracy) {
         Random random = new Random();
         double roll = random.nextDouble();
@@ -77,5 +78,11 @@ public class Wizard extends Character {
 
     @Override
     public void defend(Character attacker) {
+       //Victoire de l'utilisateur
+        if (attacker.getCurrenthealth() > 0 && this.currenthealth > 0) {
+            System.out.println("You defend yourself!");
+        //Précision corrélé au niveau d edéfense de l'enemi
+        double accuracy = 1 -(1-attacker.getAccuracy())/2;
+        }
     }
 }
